@@ -1,27 +1,17 @@
 # ZZR
 
-* Ruby version
+
+# Стиль оформления
+
+[Ruby style guide](https://github.com/arbox/ruby-style-guide/blob/master/README-ruRU.md)
+[Rails style guide](https://github.com/arbox/rails-style-guide/blob/master/README-ruRU.md)
+
+# Зависимости
 
 Ruby 2.3+ (MRI)
-
-* System dependencies
-
 Postgres 9.5 or 9.6
 
-* Configuration
-
-run mv config/secrets.yml.examle config/secrets.yml
-
-* Database creation
-
-rake db:create
-
-* Database initialization
-
-* How to run the test suite
-
-rake
-
-* Services (job queues, cache servers, search engines, etc.)
-
-Nothing here right now
+# Установка
+1. Выполните `cp config/secrets.yml.examle config/secrets.yml`
+2. `rake db:create`
+3. Проверяем, что все работает запуском `rake`
